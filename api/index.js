@@ -10,6 +10,7 @@ import relationshipRoutes from "./routes/relationships.js";
 import cors from "cors";
 import multer from "multer";
 import cookieParser from "cookie-parser";
+import { Suspense } from 'react';
 import { someFunction } from '@vercel/edge';
 import { anotherFunction } from '@vercel/node';
 import { sql } from '@vercel/postgres';
