@@ -5,8 +5,5 @@
   ],
   "routes": [
     { "src": "/api/(.*)", "dest": "/api/$1" }
-  ],
-  "env": {
-    "API_KEY": "your_api_key"
-  }
+  ]
 }
