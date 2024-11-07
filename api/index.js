@@ -10,7 +10,7 @@ import relationshipRoutes from "./routes/relationships.js";
 import cors from "cors";
 import multer from "multer";
 import cookieParser from "cookie-parser";
-import vercel from "@vercel"
+import vercel from "@vercel/node"
 
 //middlewares
 app.use((req, res, next) => {
