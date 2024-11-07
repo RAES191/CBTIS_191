@@ -1,0 +1,48 @@
+.perfil-container {
+    padding: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    background: linear-gradient(to right, #ECF2FF, #FBFCFF);
+  }
+  
+  /* Info */
+  .perfil-info {
+    width: 50%;
+  }
+  
+  .perfil-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  
+  .perfil-label {
+    color: #4d4b4b;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .perfil-value {
+    color: #4d4b4b;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    letter-spacing: .7px;
+    line-height: 1.7rem;
+  }
+  
+  /* Responsive */
+  @media screen and (max-width: 1000px) {
+    .perfil-container {
+      display: block;
+    }
+  
+    .perfil-info {
+      width: 100%;
+      max-width: 100%;
+      margin: 0 0 32px 0;
+    }
+  }
+  

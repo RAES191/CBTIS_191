@@ -1,0 +1,83 @@
+/* Estilos generales */
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.no-announcements {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.parent-dashboard-container {
+    padding: 20px;
+  }
+  
+  .announcements {
+    margin-top: 20px;
+  }
+  
+  .announcement-item {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .section-title {
+    color: black;
+    text-align: center;
+  }
+  
+  .main-tech {
+    text-align: left;
+    margin-bottom: 4px;
+  }
+  
+  .vertical-timeline-element-title {
+    text-align: left;
+  }
+  
+  .vertical-timeline-element-subtitle {
+    text-align: left;
+  }
+  
+  .technologies {
+    text-align: left;
+    margin-top: 15px;
+  }
+  
+  /* Estilos para los íconos de la línea de tiempo */
+  .experience-icon {
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  /* Estilos para el fondo del círculo en la línea de tiempo */
+  .vertical-timeline-element--work .vertical-timeline-element-icon {
+    background-color: #AE944F; /* Color del círculo */
+    color: #fff; /* Color del ícono */
+    text-align: center;
+  }
+  
+  .vertical-timeline-element--work .vertical-timeline-element-icon i {
+    font-size: 24px; /* Tamaño del ícono dentro del círculo */
+  }
+  
+  /* Ajuste para el último ícono en la línea de tiempo */
+  .vertical-timeline-element .fa-hourglass-start {
+    background-color: #AE944F; /* Color del último círculo */
+    color: #fff;
+    text-align: center;
+  }
+  
+/* Estilo para el último círculo en la línea de tiempo */
+.vertical-timeline-element .fa-hourglass-start {
+    background-color: #AE944F; /* Color de fondo del último círculo */
+    color: #fff; /* Color del ícono */
+    text-align: center;
+  }
+  

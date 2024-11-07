@@ -1,0 +1,34 @@
+.stats-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+  
+  .stat-box {
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+  
+    .stat-box.orange {
+      background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    }
+    
+    .stat-box.purple {
+      background: linear-gradient(135deg, #6a11cb, #2575fc);
+    }
+    
+    .stat-box.blue {
+      background: linear-gradient(135deg, #00c6ff, #0072ff);
+    }
+
+/* Estilo para los íconos dentro de los cuadros */
+.stat-box .fa-icon {
+  margin-bottom: 10px;
+}

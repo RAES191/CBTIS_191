@@ -1,0 +1,19 @@
+.TopStudents {
+    padding: 20px; /* Ajusta según sea necesario */
+    margin-bottom: 100px; /* Espacio para que no se superponga con el footer */
+  }
+
+/* TopStudents.css */
+.profile {
+    display: flex;          /* Usar flexbox para el centrado */
+    flex-direction: column; /* Organizar elementos en columna */
+    align-items: center;    /* Centrar elementos horizontalmente */
+    justify-content: center; /* Centrar elementos verticalmente */
+    width: 200px;          /* Aumenta el ancho según sea necesario */
+    height: 200px;         /* Aumenta la altura según sea necesario */
+    object-fit: cover;     /* Recorta la imagen para cubrir el área */
+    border-radius: 50%;    /* Hace la imagen circular */
+  }
+
+ 
+  

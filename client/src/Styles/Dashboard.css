@@ -1,0 +1,194 @@
+/* src/Styles/Dashboard.css */
+/* Asegúrate de seleccionar la clase correcta donde está el Management Value */
+.management-value {
+  font-size: 14px; /* Ajusta el tamaño de fuente aquí */
+  font-weight: normal; /* Puedes ajustar el peso si quieres que sea más ligero */
+  color: #333; /* Cambia el color si es necesario */
+}
+
+/* Ajusta el tamaño del gráfico si también necesitas que sea más pequeño */
+.chart-section {
+  width: 80%; /* Ajusta el tamaño del gráfico */
+  margin: 0 auto; /* Centra el gráfico */
+}
+
+.management-chart-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.management-value-chart {
+  width: 60%; /* Ajusta el ancho del gráfico */
+}
+
+.gender-distribution-chart {
+  width: 35%; /* Ajusta el ancho del gráfico de rueda */
+  margin-left: 20px; /* Añade un pequeño margen a la izquierda */
+}
+
+.dashboard-container {
+  display: flex;
+}
+
+.sidebar {
+  width: 200px;
+  background: #f5f5f5;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  font-size: 24px;
+}
+
+.sidebar nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar nav ul li {
+  padding: 10px 0;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+  align-items: start;
+}
+
+.dashboard-title {
+  font-size: 32px; /* Ajusta el tamaño de la fuente de "Dashboard" */
+  font-weight: bolder; /* Hacer que "Dashboard" sea más grueso */
+  color: #333; /* Ajusta el color si es necesario */
+}
+
+.school-management {
+  font-size: 16px; /* Ajusta el tamaño de la fuente de "School Management" */
+  font-weight: 100; /* Hacer que el texto sea más delgado */
+  color: #666; /* Cambia el color si es necesario */
+  margin-top: 5px; /* Añade un pequeño margen superior */
+}
+
+.header {
+  display: flex;
+  flex-direction: column; /* Coloca los elementos uno debajo del otro */
+  align-items: flex-start; /* Alinea el contenido a la izquierda */
+  margin-left: 20px; /* Añade margen si quieres separarlo del borde izquierdo */
+}
+
+.stats-section, .charts-section, .top-students-section {
+  margin-bottom: 20px;
+  width: 100%;
+
+}
+
+
+
+/* Estilos para las tarjetas */
+.stats-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.stat-box {
+  color: white;
+  padding: 30px;
+  border-radius: 30px;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #ff7e5f, #feb47b);
+}
+
+.stat-box.orange {
+  background: linear-gradient(135deg, #ff7e5f, #feb47b);
+}
+
+.stat-box.purple {
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+}
+
+.stat-box.blue {
+  background: linear-gradient(135deg, #00c6ff, #0072ff);
+}
+
+.stat-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.stat-box {
+  font-size: 20px;
+  margin-left: 0.35em;
+}
+
+/* Estilo para el texto de la izquierda (número y categoría) */
+.stat-text h3 {
+  font-size: 32px; /* Tamaño grande para el número */
+  margin: 0;
+}
+
+.stat-text {
+  font-size: 28px; /* Tamaño grande para el número */
+  margin: 0;
+}
+
+.stat-text p {
+  font-size: 14px; /* Tamaño más pequeño para el texto */
+  margin: 0;
+  color: rgba(255, 255, 255, 0.7); /* Color con algo de transparencia */
+}
+
+.stat-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Círculo alrededor del ícono */
+.icon-circle {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.3); /* Fondo blanco/transparente */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-circle svg {
+  
+  color: white; /* Color del ícono */
+}
+
+.chart-buttons {
+  margin-bottom: 20px;
+}
+
+.chart-buttons button {
+  margin-right: 10px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #333;
+}
+
+.chart-buttons button:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+footer {
+  position: relative; /* O absolute, dependiendo del diseño */
+  width: 100%;
+  background-color: #333; /* Ajusta el color */
+  color: white;
+  padding: 20px;
+  text-align: center;
+}

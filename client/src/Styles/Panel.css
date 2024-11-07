@@ -1,0 +1,108 @@
+/* AttendanceLog.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+.attendance-log-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.timeline {
+  position: relative;
+  margin: 20px 0;
+  padding: 20px 0;
+  list-style: none;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: #007bff;
+  left: 50%;
+  margin-left: -1px;
+}
+
+.timeline-item {
+  position: relative;
+  width: 50%;
+  padding: 20px 40px;
+  box-sizing: border-box;
+}
+
+.timeline-item.left {
+  left: 0;
+}
+
+.timeline-item.right {
+  left: 50%;
+}
+
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  top: 20px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #007bff;
+  box-shadow: 0 0 0 4px #f5f5f5;
+}
+
+.timeline-item.left::before {
+  right: -10px;
+}
+
+.timeline-item.right::before {
+  left: -10px;
+}
+
+.timeline-content {
+  padding: 20px;
+  background: #ff7300;
+  position: relative;
+  border-radius: 6px;
+}
+
+.timeline-content h2 {
+  margin: 0;
+  color: #fff;
+}
+
+.timeline-content p {
+  margin: 5px 0 0;
+  color: #fff;
+}
+
+.announcements {
+  margin: 40px 0;
+}
+
+.announcement-item {
+  background: #ff7300;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+
+.announcement-item h3 {
+  margin: 0 0 10px;
+  color: #fff;
+}
+
+.announcement-item p {
+  margin: 0;
+  color: #fff;
+}

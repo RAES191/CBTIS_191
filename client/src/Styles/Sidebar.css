@@ -1,0 +1,77 @@
+/* src/components/Sidebar.css */
+
+.sidebar {
+  background: #f5f5f5; /* Color de fondo suave */
+  padding: 20px; /* Espaciado interno */
+  height: 100%; /* Altura completa de la ventana */
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
+  display: flex;
+  flex-direction: column; /* Alinear elementos en columna */
+  width: 100px; /* Aumenta el ancho de la barra lateral */
+}
+
+
+.text{
+  margin-left: 5%;  
+  opacity: .65;
+  
+}
+
+.sidebar1 ul {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+}
+
+.sidebar1 nav ul {
+  list-style: none; /* Sin viñetas en la lista */
+  padding: 0; /* Sin relleno */
+  
+  
+}
+
+.sidebar1 nav ul li {
+  padding: 12px 15px; /* Espaciado interno de cada elemento de la lista */
+  margin-top: 3.5%;
+  cursor: pointer; /* Cambiar cursor al pasar sobre los elementos */
+  transition: background 0.3s, opacity 0.3s; /* Transición suave para el efecto hover */
+  opacity: 0.8; /* Transparencia inicial para los elementos */
+  width: 250px;
+}
+
+.sidebar1 nav ul li:hover {
+  background: #ddd; /* Color de fondo al pasar el mouse */
+  opacity: 1; /* Opacidad completa al pasar el mouse */
+}
+
+.sidebar1 nav ul li.active {
+  background: linear-gradient(90deg, #f8813c2a 0%, #f8813c00 100%); /* Degradado naranja */
+  color: #f8823c; /* Color del texto del elemento activo */
+  font-weight: bold; /* Negrita para el texto activo */
+  opacity: 1; /* Opacidad completa para el activo */
+  position: relative; /* Necesario para posicionar el pseudo-elemento */
+}
+
+.sidebar1 nav ul li.active::after {
+  content: ''; /* Necesario para crear el pseudo-elemento */
+  position: absolute; /* Posicionamiento absoluto */
+  right: -5px; /* Ajusta la distancia a la derecha según sea necesario */
+  top: 50%; /* Centra la línea verticalmente */
+  transform: translateY(-50%); /* Ajuste para centrar verticalmente */
+  width: 4px; /* Ancho de la línea */
+  height: 70%; /* Altura completa del elemento */
+  background-color: #f8813cb7; /* Color de la línea */
+  border-radius: 8px 0 0 8px; /* Bordes redondeados solo a la izquierda */
+}
+
+/* Aplica transparencia a los iconos (si hay iconos personalizados) */
+.sidebar1 nav ul li i {
+  opacity: 0.8; /* Transparencia para los iconos */
+  transition: opacity 0.3s; /* Transición suave para la opacidad de los iconos */
+  width: 100%;
+}
+
+.sidebar1 nav ul li:hover i {
+  opacity: 1; /* Iconos completamente visibles al hacer hover */
+  
+}

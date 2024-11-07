@@ -1,0 +1,77 @@
+
+
+/* Footer.css */
+.footer-section {
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+/* FAQ.css */
+
+.faq-section {
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Título principal de las Preguntas Frecuentes */
+.faq-section .faq-title {
+    font-size: 26px;
+    font-weight: bold;
+    color: #b40f0f;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Pregunta (título) */
+.faq-section .faq-row-title {
+    font-size: 8px;
+    font-weight: bold;
+    color: #400000;
+    padding: 5px 0;
+    cursor: pointer;
+    border-bottom: 1px solid #e0e0e0;
+    transition: background-color 0.3s ease;
+}
+
+.faq-section .faq-row-title:hover {
+    background-color: #f1f1f1; /* Efecto hover en las preguntas */
+}
+
+/* Contenido de la respuesta */
+.faq-section .faq-row-content {
+    padding: 10px 50px;
+    color: #333;
+    line-height: 1.6;
+    background-color: #fff;
+}
+
+/* Flecha personalizada para expandir */
+.faq-section .faq-arrow {
+    color: #b40f0f;
+    font-size: 14px;
+    transition: transform 0.3s ease;
+}
+
+.faq-section .faq-arrow.open {
+    transform: rotate(180deg); /* Rotar flecha cuando esté abierta */
+}
+
+/* Transición suave */
+.faq-section .faq-content {
+    transition: max-height 0.3s ease-out;
+}
+
+/* Opcional: Ajustes de responsividad */
+@media (max-width: 768px) {
+    .faq-section .faq-row-title {
+        font-size: 16px;
+    }
+
+    .faq-section .faq-row-content {
+        padding: 10px 20px;
+    }
+}
